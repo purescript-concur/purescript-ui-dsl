@@ -1,0 +1,27 @@
+{
+  "name": "ps-ui-dsl",
+  "version": "1.0.0",
+  "description": "Purescript Layout Engine.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "spago install",
+    "clean": "rm -rf output .spago node_modules",
+    "build": "spago build"
+  },
+  "keywords": [
+    "purescript",
+    "vdom",
+    "layout"
+  ],
+  "author": "Anupam Jain <ajnsit@gmail.com>",
+  "license": "AllRightsReserved",
+  "homepage": "https://bitbucket.org/juspay/purescript-ui-dsl",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/juspay/purescript-ui-dsl"
+  },
+  "devDependencies": {
+    "purescript": "^0.13.8",
+    "spago": "^0.15.3"
+  }
+}
